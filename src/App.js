@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { DropdownButton, Dropdown } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <DropdownButton id="dropdown-basic-button" title="Menu">
+            <Dropdown.Item href="#/action-1">Inicio</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Restaurantes</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Exposiciones</Dropdown.Item>
+          </DropdownButton>
+        </div>
+        <img src={logo} />
       </header>
     </div>
   );
