@@ -14,8 +14,11 @@ function App() {
             <Dropdown.Item href="#/action-3">Exposiciones</Dropdown.Item>
           </DropdownButton>
         </div>
-        <img src={logo} />
+        <img alt="logo" src={logo} />
       </header>
+      <main className="App-main">
+
+      </main>
     </div>
   );
 }
