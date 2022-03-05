@@ -12,8 +12,8 @@ const Home = () => {
         autores más representativos, kimonos, abanicos y fotografías.
       </p>
       <p>
-        Tendrá lugar en Valdelaguna desde el 20 de abril hasta el 24 de abril
-        2022.
+        Tendrá lugar en Av. del Generalísimo, 28391 Valdelaguna,
+        Madrid 31 desde el 20 de abril hasta el 24 de abril 2022.
       </p>
       <p>
         La muestra está producida y organizada por Evolucionarte y comisariada

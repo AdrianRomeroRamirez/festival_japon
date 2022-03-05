@@ -28,7 +28,7 @@ const Footer = () => (
 
     <div className="footer-copyright text-center py-3">
       © 2020 Copyright:
-      <a href="https://sleepy-agnesi-188d88.netlify.app/"> MDBootstrap.com</a>
+      <a href="https://sleepy-agnesi-188d88.netlify.app/"> Festivla japones</a>
     </div>
   </footer>
 );
