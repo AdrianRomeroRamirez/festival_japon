@@ -15,7 +15,9 @@ function App() {
         <div>
           <DropdownButton id="dropdown-basic-button" title="Menu">
             <Dropdown.Item href="/">Inicio</Dropdown.Item>
-            <Dropdown.Item href="Restaurantes">Restaurantes</Dropdown.Item>
+            <Dropdown.Item href="https://sleepy-agnesi-188d88.netlify.app/Restaurantes">
+              Restaurantes
+            </Dropdown.Item>
             <Dropdown.Item href="Exposiciones">Exposiciones</Dropdown.Item>
           </DropdownButton>
         </div>
